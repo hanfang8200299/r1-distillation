@@ -7,7 +7,7 @@ from transformers import TrainingArguments
 from datasets import load_dataset, Dataset
 import os
 os.environ["WANDB_PROJECT"] = "distillation_expt" 
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 # 记录程序开始时间
 start_time = time.time()
